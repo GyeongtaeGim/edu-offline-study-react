@@ -35,7 +35,7 @@ const App = () => (
           >
             <Route path='/home' element={<>홈화면</>} />
             <Route path='/post' element={<>게시글화면</>} />
-            <Route path='/N10303' element={<N10303Page/>} loader={N10303Page.load}/>
+            <Route path='/N10303' element={<N10303Page />} loader={N10303Page.load} />
           </Route>
         </Route>,
       ),
