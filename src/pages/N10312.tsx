@@ -19,7 +19,7 @@ const N10312 = () => {
     <Stack>
       <Typography
         variant='h1'
-        style={{ fontSize: `${value}px`, marginLeft: `${value}px`, marginTop: `${value}px` }}
+        style={{ fontSize: `${value}px`, marginLeft: `${left}px`, marginTop: `${right}px` }}
       >
         이정욱
       </Typography>
