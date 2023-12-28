@@ -24,7 +24,7 @@ const N10419Page = loadable(() => import('pages/N10419'));
 const N10303Page = loadable(() => import('pages/N10303'));
 const N10404Page = loadable(() => import('pages/N10404'));
 const N10407Page = loadable(() => import('pages/N10407'));
-const N10406Page = loadable(() => import('pages/n10406'));
+const N10406Page = loadable(() => import('pages/N10406'));
 const N20000511Page = loadable(() => import('pages/N20000511'));
 
 const App = () => (
