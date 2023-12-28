@@ -148,6 +148,114 @@ const AuthLayout = () => {
                 </ListItem>
               )}
             </NavLink>
+            <NavLink to='/N10406'>
+              {({ isActive }) => (
+                <ListItem disablePadding>
+                  <ListItemButton selected={isActive}>
+                    <ListItemIcon>
+                      <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText>박지후</ListItemText>
+                  </ListItemButton>
+                </ListItem>
+              )}
+            </NavLink>
+            <NavLink to='/N10407'>
+              {({ isActive }) => (
+                <ListItem disablePadding>
+                  <ListItemButton selected={isActive}>
+                    <ListItemIcon>
+                      <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText>신민석</ListItemText>
+                  </ListItemButton>
+                </ListItem>
+              )}
+            </NavLink>
+            <NavLink to='/N10404'>
+              {({ isActive }) => (
+                <ListItem disablePadding>
+                  <ListItemButton selected={isActive}>
+                    <ListItemIcon>
+                      <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText>김지효</ListItemText>
+                  </ListItemButton>
+                </ListItem>
+              )}
+            </NavLink>
+            <NavLink to='/N10303'>
+              {({ isActive }) => (
+                <ListItem disablePadding>
+                  <ListItemButton selected={isActive}>
+                    <ListItemIcon>
+                      <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText>김지윤</ListItemText>
+                  </ListItemButton>
+                </ListItem>
+              )}
+            </NavLink>
+            <NavLink to='N10419'>
+              {({ isActive }) => (
+                <ListItem disablePadding>
+                  <ListItemButton selected={isActive}>
+                    <ListItemIcon>
+                      <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText>이은상</ListItemText>
+                  </ListItemButton>
+                </ListItem>
+              )}
+            </NavLink>
+            <NavLink to='/N10306'>
+              {({ isActive }) => (
+                <ListItem disablePadding>
+                  <ListItemButton selected={isActive}>
+                    <ListItemIcon>
+                      <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText>신권호</ListItemText>
+                  </ListItemButton>
+                </ListItem>
+              )}
+            </NavLink>
+            <NavLink to='/N10405'>
+              {({ isActive }) => (
+                <ListItem disablePadding>
+                  <ListItemButton selected={isActive}>
+                    <ListItemIcon>
+                      <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText>박민규</ListItemText>
+                  </ListItemButton>
+                </ListItem>
+              )}
+            </NavLink>
+            <NavLink to='/N10312'>
+              {({ isActive }) => (
+                <ListItem disablePadding>
+                  <ListItemButton selected={isActive}>
+                    <ListItemIcon>
+                      <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText>이정욱</ListItemText>
+                  </ListItemButton>
+                </ListItem>
+              )}
+            </NavLink>
+            <NavLink to='/N20000511'>
+              {({ isActive }) => (
+                <ListItem disablePadding>
+                  <ListItemButton selected={isActive}>
+                    <ListItemIcon>
+                      <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText>김경태</ListItemText>
+                  </ListItemButton>
+                </ListItem>
+              )}
+            </NavLink>
           </List>
           <Divider />
           <List subheader={<ListSubheader>게시글</ListSubheader>}>
@@ -159,6 +267,18 @@ const AuthLayout = () => {
                       <BatchPredictionIcon />
                     </ListItemIcon>
                     <ListItemText>게시글 목록</ListItemText>
+                  </ListItemButton>
+                </ListItem>
+              )}
+            </NavLink>
+            <NavLink to='/N10308'>
+              {({ isActive }) => (
+                <ListItem disablePadding>
+                  <ListItemButton selected={isActive}>
+                    <ListItemIcon>
+                      <BatchPredictionIcon />
+                    </ListItemIcon>
+                    <ListItemText>윤상지지지</ListItemText>
                   </ListItemButton>
                 </ListItem>
               )}
